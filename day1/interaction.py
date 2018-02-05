@@ -55,4 +55,4 @@ Salary: {3}
 ''' .format(name, age, job, salary)
 
 # 打印结果
-print(info3)
+print(info)
