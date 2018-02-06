@@ -5,3 +5,16 @@
 # @Site....: 
 # @File....: passwd.py
 # @Software: PyCharm
+import getpass
+
+_username = "Rye"
+_password = "hcd"
+username = input("username:")
+password = getpass.getpass("password:")
+
+if _username == username and _password == password:
+    print("Welcome user {name} login...".format(name=username))
+else:
+    print("Invalid username or password!")
+
+print(username, password)
