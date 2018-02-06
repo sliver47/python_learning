@@ -5,7 +5,10 @@
 # @Site....: 
 # @File....: passwd.py
 # @Software: PyCharm
+
 import getpass
+
+# 密文输入——if else流程判断
 
 _username = "Rye"
 _password = "hcd"
