@@ -18,6 +18,8 @@ while True:
 """
 
 # 改写为for循环版本
+# 下面句子range(10)中的10表在示0-9的范围内实现i循环10次
+# 每循环一次加一
 """
 for i in range(10):
     print("loop: ", i)
